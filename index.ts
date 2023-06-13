@@ -117,4 +117,4 @@ class FloatVideoComponent {
 }
 
 
-let arrr = new FloatVideoComponent('.float-video-container')
+let FloatVideo = new FloatVideoComponent('.float-video-container')
