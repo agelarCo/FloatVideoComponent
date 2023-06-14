@@ -23,10 +23,10 @@ class FloatVideoComponent {
         this.videoMutedOnButton = false
         this.videoState = 'play'
         this.videoSelectState = false
-        if (localStorage.getItem('video-hide') == 'true') {
+        /* if (localStorage.getItem('video-hide') == 'true') {
             this.targetElement.classList.add('float-video-container--hide-js')
             this.targetElement.style.display = "none";
-        }
+        } */
         this._init()
 
 
